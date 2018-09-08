@@ -1,0 +1,30 @@
+.headroom {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+
+}
+.headroom--unfixed {
+    position: relative;
+}
+.headroom--scrolled {
+    transition: transform 200ms ease-out;
+}
+.headroom--unpinned {
+    position: fixed;
+    transform: translateY(0%);
+}
+.headroom--pinned {
+    position: fixed;
+    transform: translateY(-100%);
+}
+
+@media screen and (min-height: 0px) and (max-height: 300px) {
+
+.headroom{
+    display:none
+;
+}
+}

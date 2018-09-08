@@ -1,0 +1,61 @@
+
+    .show-grid, .text-center, .Heading {
+        align: center;
+    }
+
+    h1 {
+        position: relative;
+    }
+
+    .Head-1 {
+        left: 35%;
+        vertical-align: middle;
+        padding-top: 15%;
+    }
+
+    .Head-2 {
+        padding-top: 15%;
+        right: 35%;
+    }
+
+    .logo {
+        width: 70%;
+    }
+
+    .Menu-items {
+
+    }
+
+    .Items {
+        padding-top: 2%;
+        list-style: none;
+        align-items: center;
+    }
+
+    li {
+        font-size: 18px;
+        display: inline-block;
+    }
+
+    hr {
+        margin: 25px 0;
+        height: 1px;
+        background: black;
+        background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+    }
+    @media only screen and (max-width: 768px) {
+
+        .Head-1 {
+            left: 12%;
+        }
+
+        .Head-2 {
+            padding-top: 15%;
+            right: 35%;
+        }
+
+        .logo {
+            width: 70%;
+            padding-top: 15%;
+        }
+    }

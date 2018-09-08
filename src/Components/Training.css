@@ -1,0 +1,144 @@
+
+.Training
+{
+    padding: 2% 0 2% 0;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+}
+
+.Description
+{
+    padding: 2% 0 2% 0;
+}
+
+p
+{
+    text-align: center;
+}
+
+.Title-Heading
+{
+    text-align:center;
+}
+
+.Column
+{
+    margin: 0 auto;
+    width: 50%;
+    padding: 1%;
+    position: relative;
+}
+
+.Columns
+{
+    margin: 0 auto;
+    float:left;
+    width: 50%;
+    padding: 1%;
+    position: relative;
+}
+
+.Price
+{
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+/* Add shadows on hover */
+.Price:hover
+{
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.Price .Head
+{
+    background-color: #2f2f2f;
+    color: white;
+    font-size: 25px;
+}
+
+.Price .Pack-Heading
+{
+    padding: 5% 10% 5% 21%;
+}
+
+.Price .Price-Tag
+{
+    padding: 0 0 0 25%;
+    margin: 0 auto;
+}
+
+.Price .Pack-Heading-lg
+{
+    padding: 5% 5% 5% 5%;
+}
+
+.Price .Price-Tag-lg
+{
+    margin: 0 auto;
+    padding: 0 0 2% 25%;
+}
+
+/* List items */
+.Price li
+{
+    border-bottom: 1px solid #eee;
+    padding: 10%;
+    text-align: center;
+}
+
+/* Grey list item */
+.Price .Grey
+{
+    background-color: #eee;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 479px) {
+
+    .Columns
+    {
+        padding: 1% 1% 1% 1%;
+        position: relative;
+    }
+
+    .Columns .Column{
+        width: 100%;
+    }
+
+    .Pack-Heading {
+        align-items: center;
+    }
+
+    .Price .Pack-Heading
+    {
+        padding: 5% 5% 5% 5%;
+        text-align:center;
+    }
+
+    .Price .Pack-Heading-lg
+    {
+        width:100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        word-wrap: break-word;
+        padding: 5% 3% 5% 3%;
+    }
+
+    .Price .Price-Tag{
+        margin: 0 auto;
+        padding: 0 5% 0 5%;
+
+    }
+    .Price .Price-Tag-lg{
+        margin: 0 auto;
+        padding: 0 5% 5% 5%;
+
+    }
+}

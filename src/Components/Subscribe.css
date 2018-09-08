@@ -1,0 +1,74 @@
+
+
+.Training-description{
+    text-align: center;
+}
+
+
+.Subscribe
+{
+    padding: 2% 0 2% 0;
+}
+
+.Description
+{
+    padding: 2% 0 2% 0;
+}
+
+p
+{
+    text-align: center;
+}
+
+.Form-class
+{
+    padding: 0 0 2% 10%;
+    margin: 0 auto;
+}
+
+.Form-class input
+{
+    margin: 2% 2% 2% 2%;
+}
+
+.msg-alert p
+{
+    margin: 0 auto;
+    padding: 5% 20% 0 2%;
+}
+
+.Form-class button
+{
+    border-radius: 10px;
+    background-color: #eeeeee;
+    margin-left: 40%;
+}
+
+button:hover
+{
+    background-color: #f8f8f8;
+    -webkit-transition: prop 0.2s;
+    -moz-transition: prop 0.2s;
+    -o-transition: prop 0.2s;
+    transition: prop 0.2s;
+}
+
+@media screen and (max-width: 479px) {
+
+    .Form-class{
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 0 2% 2%;
+    }
+
+    .Form-class button
+    {
+        margin-right: 40%;
+
+    }
+
+}
+
+
+
+

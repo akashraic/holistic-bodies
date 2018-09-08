@@ -1,0 +1,40 @@
+
+.Footer
+{
+    padding: 2% 0 2% 0;
+    background-color: #f8f8f8;
+}
+
+.instant
+{
+    margin: 5% 7% 5% 32%;
+    padding: 0 12% 0 12%;
+}
+
+.snap
+{
+    margin: 5% 5% 5% 5%;
+}
+
+.instant,.snap
+{
+    padding: 2% 2% 2% 2%;
+    font-size: 50px;
+    color: #d5d5d5;
+    display: inline-block;
+    background-color: black;
+    border-radius: 30%;
+    box-shadow: 0 0 2px #888;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.instant:hover, .snap:hover
+{
+    background-color: #666166;
+}
+
+p
+{
+    text-align: center;
+}
