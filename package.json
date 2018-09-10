@@ -4,10 +4,17 @@
   "private": true,
   "homepage": "https://muztank10.github.io/holistic-bodies/",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-brands-svg-icons": "^5.3.1",
+    "@fortawesome/react-fontawesome": "^0.1.3",
     "gh-pages": "^1.2.0",
     "react": "^16.5.0",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.0",
-    "react-scripts": "1.1.5"
+    "react-headroom": "^2.2.2",
+    "react-player": "^1.6.4",
+    "react-scripts": "1.1.5",
+    "react-scrollable-anchor": "^0.6.1"
   },
   "scripts": {
     "start": "react-scripts start",

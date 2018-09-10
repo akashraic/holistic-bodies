@@ -12,7 +12,7 @@ import Subscribe from './Components/Subscribe';
 import Footer from './Components/Footer';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faInstagram} from '@fortawesome/free-brands-svg-icons';
-import Headroom from "react-headroom";
+import Headroom from 'react-headroom';
 
 library.add(faInstagram);
 
