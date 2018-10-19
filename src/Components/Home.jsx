@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Row, Col, Image, Nav, NavItem} from 'react-bootstrap';
 import './Home.css';
-import ReactPlayer from 'react-player';
 import {goToTop, removeHash} from 'react-scrollable-anchor'
 
 
@@ -17,13 +16,13 @@ class Home extends Component {
                 <Row className="show-grid text-center Heading">
                     <Col md={3} xs={0}/>
                     <Col className="Head-wrap-1" md={2} xs={4}>
-                        <h1 className="Head-1">Holistic</h1>
+                        <h1 className="Head-1">HOLISTIC</h1>
                     </Col>
                     <Col className="Logo-wrapper" md={2} xs={4}>
-                        <Image src="/public/assests/Main_Logo.png" circle className="logo"/>
+                        <Image src="/assests/Main_Logo.png" circle className="logo"/>
                     </Col>
                     <Col className="Head-wrap-2" md={2} xs={4}>
-                        <h1 className="Head-2">Bodies</h1>
+                        <h1 className="Head-2">BODIES</h1>
                     </Col>
                     <Col md={3} xs={0}/>
                 </Row>
@@ -44,18 +43,6 @@ class Home extends Component {
                     </Col>
                 </Row>
                 <hr/>
-                <Row className="show-grid text-center Video-row">
-                    <Col xs={1}/>
-                    <Col xs={10} className="Video-wrapper">
-                        <ReactPlayer
-                            className="player"
-                            url="/public/assests/LandingPageVideo.mp4"
-                            width="100%"
-                            height="100%"
-                            controls/>
-                    </Col>
-                    <Col xs={1}/>
-                </Row>
             </Grid>
         );
     }

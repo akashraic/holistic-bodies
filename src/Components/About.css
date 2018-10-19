@@ -6,10 +6,28 @@
 
 .about-us
 {
-    padding: 5% 0 2% 0;
+    padding: 2% 0 5% 0;
 }
 
+.about-us-text
+{
+    text-align: justify;
+}
 
+.title
+{
+    padding: 0 0 5% 0;
+}
+
+.mission-statement
+{
+    padding: 2% 0 2% 0;
+}
+.mission-statement-text
+{
+    font-size: 22px;
+    text-align: justify;
+}
 
 h1, h2
 {
@@ -18,12 +36,14 @@ h1, h2
 
 .triangle-wrapper
 {
-    float: left;
+    margin: auto 0;
 }
 
 .triangle
 {
-    padding-top: 10%;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 20%;
 }
 
 
@@ -32,16 +52,62 @@ h1, h2
     float: left;
 }
 
+.about-hussain-text
+{
+    text-align: justify;
+}
+
 p
 {
-    padding: 5% 5% 5% 5%;
-    font-size: 18px;
+    padding: 5% 5% 2% 5%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.person-wrapper{
+    padding: 5% 2% 5% 2%;
 }
 
 .person
 {
-    height: 50%;
-    width:50%;
+    float: left;
+    height: 90%;
+    width: 90%;
+}
+
+.person-wrapper .person{
+    margin: auto 0;
+}
+
+.Bttn{
+    display: inline-block;
+    /*padding: 30px 20px 30px 20px;*/
+    /*margin: 0 auto;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1e767+0,feb645+100;Yellow+3D */
+    background: #f1e767; /* Old browsers */
+    background: -moz-linear-gradient(top, #f1e767 0%, #feb645 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f1e767 0%,#feb645 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f1e767 0%, #feb645 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=0 ); /* IE6-9 */
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: #2d2d2a;
+}
+
+.Bttn-wrapper
+{
+    margin: 0 auto;
+    padding: 8% 5% 0 0;
+}
+
+.Bttn:hover
+{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1e767+0,feb645+100;Yellow+3D */
+    background: #f1e767; /* Old browsers */
+    background: -moz-linear-gradient(top, #f1e767 0%, #feb645 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f1e767 0%,#feb645 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f1e767 0%, #feb645 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=0 ); /* IE6-9 */
 }
 
 @media screen and (max-width: 479px) {

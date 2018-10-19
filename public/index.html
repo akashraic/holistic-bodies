@@ -9,7 +9,19 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/Main_Logo.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200, 400|Quicksand" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Mail Chimp -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -19,11 +31,11 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Holistic Bodies</title>
   </head>
   <body>
     <noscript>
-      You need to enable JavaScript to run this app.
+       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
     <!--
@@ -37,4 +49,24 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+  <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+  <script>
+      // Initialize Firebase
+      var config = {
+          apiKey: "AIzaSyCy5xVM1UvlNv7_jMnnVhADjc6NKTV0ZXY",
+          authDomain: "sigma-crow-206718.firebaseapp.com",
+          databaseURL: "https://sigma-crow-206718.firebaseio.com",
+          projectId: "sigma-crow-206718",
+          storageBucket: "",
+          messagingSenderId: "531255548513"
+      };
+      firebase.initializeApp(config);
+  </script>
+
+
+  <div>
+    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?15086025&data_platform=code&data_date=2018-10-15" charset="utf-8"></script>
+    <script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-15086025");</script>
+  </div>
 </html>

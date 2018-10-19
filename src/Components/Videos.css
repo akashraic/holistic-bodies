@@ -1,8 +1,12 @@
 .Videos
 {
-    padding-top:5%;
+
 }
 
+.Description p
+{
+    text-align: justify;
+}
 
 .Video-wrapper
 {

@@ -8,13 +8,13 @@ class Blog extends Component {
             <div className="Blog">
                 <h1>Blog</h1>
                 <Grid>
-                    <Row className="Blog-wrapper-wrap">
+{/*                    <Row className="Blog-wrapper-wrap">
                         <Col md={12} className="Blog-wrapper">
-                            <ResponsiveEmbed a16by9 className="Blg">
-                                <embed src="https://muztank10.blogspot.com/" />
-                            </ResponsiveEmbed>
+                            <iframe src ="https://holsiticbodies.blogspot.com/" width="100%" height="900" frameBorder="0" className="Blg">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
                         </Col>
-                    </Row>
+                    </Row>*/}
                     <Row className="Description-wrapper">
                         <Col md={3} />
                         <Col className="Description" md={6}>
@@ -25,7 +25,7 @@ class Blog extends Component {
                     <Row className="Button-wrapper-wrap">
                         <Col md={3}/>
                         <Col md={6} className="Button-wrapper">
-                            <Button className="Btn" block>
+                            <Button className="Btn" href="https://holsiticbodies.blogspot.com/" block>
                                 Continue to Blog
                             </Button>
                         </Col>
