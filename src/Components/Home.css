@@ -61,6 +61,45 @@ hr {
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
 }
 
+@media only screen and (min-width: 992px) and  (max-width: 1198px){
+
+    .logo {
+        padding-top: 5%;
+    }
+
+    .Head-1, .Head-2 {
+        font-size: 28px;
+    }
+
+    div.Menu-row {
+        padding: 2% 60% 0 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and  (max-width: 992px){
+    .logo {
+        width:50%;
+    }
+    .Head-1, .Head-2 {
+        font-size: 28px;
+        padding-top: 10%;
+    }
+    .Head-1 {
+        padding-left:45%;
+    }
+    .Head-2 {
+        padding-right:45%;
+    }
+    div.Menu-row {
+        padding: 2% 0 0 0;
+        margin: 0 auto;
+    }
+    div.Heading {
+        padding-right: 2%;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
 
     .Head-1 {
